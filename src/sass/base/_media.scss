@@ -1,0 +1,225 @@
+@media (max-width:1200px) {
+
+}
+
+@media (max-width:991px) {
+	.header {
+		display: flex;
+		justify-content: space-evenly;
+	}
+	.promo {
+		min-height: 550px;
+		padding: 22px 0 70px 0;
+		&__wrapper {
+			margin-top: 60px;
+			margin-right: 40px;
+		}
+		&__subheader {
+			line-height: 12px;
+		}
+		&__icons {
+			margin-top: 50px;
+		}
+		.button_main {
+			margin-top: 30px;
+		}
+	}
+	.advantages {
+		padding: 50px 0 50px 0;
+		&__wrapper {
+			justify-content: space-evenly;
+		}
+	}
+	.consultation {
+		min-height: 600px;
+		padding: 60px 0 60px 0;
+		h2 {
+			margin-left: 40px;
+		}
+		&__descr {
+			margin: 50px 0 0 40px;
+		}
+		.feed-form {
+			margin-left: 40px;
+		}
+	}
+	.carousel {
+		padding: 40px 0;
+		img {
+			width: 70%;
+			margin: 0 auto;
+		}
+	}
+	.catalog {
+		&__tabs {
+			margin-top: 40px;
+		}
+		&__content {
+			justify-content: space-evenly;
+		}
+	}
+}
+
+@media (max-width:767px) {
+	.header {
+		display: flex;
+		justify-content: space-evenly;
+	}
+	.promo {
+		min-height: 550px;
+		padding: 22px 0 70px 0;
+		&__wrapper {
+			margin-top: 60px;
+			margin-right: 40px;
+		}
+		&__subheader {
+			line-height: 12px;
+		}
+		&__icons {
+			margin-top: 50px;
+		}
+		.button_main {
+			margin-top: 30px;
+		}
+	}
+	.advantages {
+		padding: 50px 0 50px 0;
+		&__wrapper {
+			justify-content: space-evenly;
+		}
+	}
+	.consultation {
+		min-height: 600px;
+		padding: 60px 0 60px 0;
+		h2 {
+			margin-left: 40px;
+		}
+		&__descr {
+			margin: 50px 0 0 40px;
+		}
+		.feed-form {
+			margin-left: 40px;
+		}
+	}
+	.carousel {
+		padding: 40px 0;
+		img {
+			width: 100%;
+			margin: 0 auto;
+		}
+	}
+	.catalog {
+		&__tabs {
+			margin-top: 40px;
+		}
+		&__content {
+			justify-content: space-evenly;
+		}
+	}	
+}
+
+@media (max-width:575px) {
+	.header {
+		justify-content: space-evenly;
+		align-items: center;
+		&__logo {
+		   width: 40%;
+		   img {
+			   width: 100%;
+		   } 
+		}
+		&__official {
+			display: none;
+		}
+		&__phone {
+			display: none;
+		}
+	}
+	.promo {
+		background-size: auto 100%;
+		&__wrapper {
+			width: 320px;
+			margin: 0 auto;
+			margin-top: 30px;
+			align-items: center;
+		}
+		&__header {
+			font-size: 30px;
+			text-align: center;
+		}
+		&__subheader {
+			font-size: 16px;
+			line-height: 18px;
+			margin-top: 0;
+			text-align: center;
+		}
+		&__icons {
+			margin-top: 20px;
+			width: 100%;
+			flex-direction: column;
+			align-items: center;
+		}
+		&__icon {
+			margin-bottom: 10px;
+		}
+		.button_main {
+			margin-top: 30px;
+			width: 80%;
+		}
+	}
+	.advantages {
+		padding: 30px 0 30px 0;
+		&__wrapper {
+			flex-direction: column;
+			align-items: center;
+			margin-top: 35px;
+		}
+		&__item {
+			margin-bottom: 20px;
+		}
+		&__subtitle {
+			margin-top: 0;
+		}
+		&__descr {
+			margin-top: 5px;
+		}
+	}
+
+	.consultation {
+		padding: 40px 0 30px 0;
+		.title {
+			&_left {
+				font-size: 28px;
+				text-align: center;
+				margin-left: 0;
+			}
+		}
+		&__descr {
+			margin: 0;
+			text-align: center;
+		}
+		.feed-form {
+			margin-left: 0;
+			align-items: center;
+			width: 100%;
+			.button_submit {
+				width: 67%;
+				font-size: 13px;
+			}
+		}
+	}
+
+	.carousel {
+		&__inner {
+			width: 320px;
+		}
+	}
+	.catalog {
+		&__tabs {
+			flex-direction: column;
+		}
+		&__tab {
+			margin-top: 5px;
+		}
+	}	
+}
