@@ -1,15 +1,15 @@
 $(document).ready(function(){
 	$('.carousel__inner').slick({
 		speed: 1200,
-/* 		adaptiveHeight: true, */
+		adaptiveHeight: true,
+		arrows: false,
 		prevArrow: '<button type="button" class="slick-prev"><img src="icons/chevron_left.png"></button>',
 		nextArrow: '<button type="button" class="slick-next"><img src="icons/chevron_right.png"></button>',
 		responsive: [
 			{
-			breakpoint: 992,
+			breakpoint: 767,
 			settings: {
-				arrows: false,
-				dots: true
+				dots: false
 			  }
 			},
 			{
