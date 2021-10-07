@@ -2,30 +2,22 @@ $(document).ready(function(){
 	$('.carousel__inner').slick({
 		speed: 1200,
 		adaptiveHeight: true,
-		arrows: false,
+		dots: false,
 		prevArrow: '<button type="button" class="slick-prev"><img src="icons/chevron_left.png"></button>',
 		nextArrow: '<button type="button" class="slick-next"><img src="icons/chevron_right.png"></button>',
 		responsive: [
-			{
-			breakpoint: 767,
+			/* {
+			breakpoint: 769,
 			settings: {
-				dots: false
-			  }
+				arrows: true
+				}
 			},
 			{
-			breakpoint: 600,
+			breakpoint: 320,
 			settings: {
-				slidesToShow: 2,
-				slidesToScroll: 2
-			  }
-			},
-			{
-			breakpoint: 480,
-			settings: {
-				slidesToShow: 1,
-				slidesToScroll: 1
-			  }
-			}
+				arrows: false
+			  	}
+			} */
 		  ]
 	  });
 

@@ -44,6 +44,9 @@
 		}
 	}
 	.carousel {
+		.slick-next, .slick-prev {
+			display:none !important;
+		}
 		padding: 40px 0;
 		img {
 			width: 70%;
@@ -56,6 +59,14 @@
 		}
 		&__content {
 			justify-content: space-evenly;
+		}
+	}
+	.reviews {
+		&__wrapper {
+			margin-left: 10%;
+		}
+		&__block {
+			margin-bottom: 50px;
 		}
 	}
 }
@@ -102,10 +113,8 @@
 		}
 	}
 	.carousel {
-		padding: 40px 0;
-		img {
-			width: 100%;
-			margin: 0 auto;
+		&__inner {
+			width: 80%;
 		}
 	}
 	.catalog {
@@ -114,6 +123,11 @@
 		}
 		&__content {
 			justify-content: space-evenly;
+		}
+	}
+	.reviews {
+		&__block {
+			margin-bottom: 50px;
 		}
 	}	
 }
@@ -211,7 +225,7 @@
 
 	.carousel {
 		&__inner {
-			width: 320px;
+			width: 80%;
 		}
 	}
 	.catalog {
@@ -220,6 +234,26 @@
 		}
 		&__tab {
 			margin-top: 5px;
+		}
+	}
+	.reviews {
+		&__wrapper {
+			margin-top: 30px;
+			margin-left: 0;
+		}
+		&__block {
+			flex-direction: column;
+			align-items: center;
+			margin-bottom: 50px;
+			div {
+				padding: 0 30px;
+			}
+		}
+		&__title, &__subtitle, &__descr {
+			text-align: center;
+		}
+		&__title {
+			margin-top: 10px;
 		}
 	}	
 }
